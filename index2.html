@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .conteyner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        .about{
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .form{
+            font-size: 17px;
+            font-weight: 540;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            
+
+        }
+    </style>
 </head>
 <body>
    <div class="conteyner">
@@ -23,19 +53,25 @@
             <option value="goa">Goa</option>
             <option value="bir">bir</option>
             <option value="iki">iki</option>
-            <option value="uc"></option>
+            <option value="uc">uc</option>
         </select>
         Arrival date* 
         <input type="date">
         What would you want to avail ?* 
+        <div class="label">
         <label for="boaring">Boaring</label><input type="checkbox" name="boaring">
+        </div>
+        <div class="label">
         <label for="fooding">Fooding</label><input type="checkbox" name="fooding">
+        </div>
+        <div class="label">
         <label for="sight seeing">Sight seeing</label><input type="checkbox" name="sight seeing">
+        </div>
         Discout coupon code:
         <input type="text" placeholder="UNKONOWN_TYPE">
         Terms and conditions* 
         <div class="radio">
-            <input type="radio" name="question"> I agree
+            <input type="radio" name="question" checked> I agree
             <input type="radio" name="question"> I disagree
             
         </div>
