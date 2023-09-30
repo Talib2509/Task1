@@ -6,6 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <div class="conteyner">
+    <div class="head">
+        <h1>Travel reservation form</h1>
+    </div>
+    <div class="about">
+        * denotes mandotory
+    </div>
+    <div class="form">
+        Full name *
+        <input type="text"  placeholder="First Name LastName">
+        Email addres* 
+        <input type="email" placeholder="EMAIL_ADDRESS">
+        Select Tour Package* 
+        <select name="tour" >
+            <option value="goa">Goa</option>
+            <option value="bir">bir</option>
+            <option value="iki">iki</option>
+            <option value="uc"></option>
+        </select>
+        Arrival date* 
+        <input type="date">
+        What would you want to avail ?* 
+        <label for="boaring">Boaring</label><input type="checkbox" name="boaring">
+        <label for="fooding">Fooding</label><input type="checkbox" name="fooding">
+        <label for="sight seeing">Sight seeing</label><input type="checkbox" name="sight seeing">
+        Discout coupon code:
+        <input type="text" placeholder="UNKONOWN_TYPE">
+        Terms and conditions* 
+        <div class="radio">
+            <input type="radio" name="question"> I agree
+            <input type="radio" name="question"> I disagree
+            
+        </div>
+        <input type="submit" value="Complate reservation">
+
+    </div>
+   </div> 
 </body>
 </html>
